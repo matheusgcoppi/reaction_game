@@ -28,7 +28,6 @@ export default {
     clickButton() {
       this.clickedButton = false
       this.showResult = false
-      console.log("entrou")
       setTimeout(() => {
         this.start = Date.now()
         this.show = true
